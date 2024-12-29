@@ -1,0 +1,381 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* -------------- GENERALES -----------------*/
+.barra{
+    position: absolute;
+    left: 280px;
+}
+.barra_dos{
+    position: absolute;
+    right: 220px;
+}
+.barra_tres{
+    position: absolute;
+    right: 130px;
+}
+hr {
+    border: 0;
+    border-top: 1px solid #D9D4C5;
+    padding-bottom: 30px;
+}
+h3,h4,h5{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #79634E;
+}
+h4{
+    font-size: 14px;
+}
+p{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #745447;
+}
+a{
+    color: #745447;
+    font-weight: bold;
+}
+
+/*----------------- ESTRUCTURA -------------------*/
+body{
+    background-image: url(imgs/body_bg.jpg);
+    font-family: sans-serif;
+}
+
+.wrapper{
+    width: 960px;
+    height: 1000px;
+    margin: 45px auto;
+}
+header{
+    width: 960px;
+    height: 100px;   
+}
+main{
+    width: 960px;
+    height: 800px;
+}
+footer{
+    width: 960px;
+    height: 100px;
+    clear: both;
+}
+.logo{
+    width: 360px;
+    height: 10px;
+    float: left;
+
+}
+.menu{
+    position: relative;
+    width: 600px;
+    height: 100px;
+    float: left;
+}
+
+/*_____ Cont main _____*/
+
+.slider{
+    width: 960px;
+    height: 200px;
+}
+.seg_menu{
+    width: 600px;
+    height: 100px;
+}
+
+.articulos{
+    width: 600px;
+    height: 500px;
+    float: left;
+}
+aside{
+    width: 360px;
+    height: 755px;
+    float: left;
+}
+.crisp{
+    width: 560px;/*600px*/
+    height: 160px;/*200px*/
+    padding: 30px 20px 20px;
+}
+.cont_articulos{
+    width: 600px;
+    height: 300px;
+}
+/*--------------------------------------------*/
+
+/*_________ Contenido  nav Menu ________-_*/
+
+
+                /*____Mi forma____*/
+
+/* .menu ul{
+    float: right;
+}
+.menu ul li{
+    display: inline;
+}
+.menu ul li a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    background-image: url(imgs/nav_top_bg.jpg);
+    float: left;
+}
+.inicio{
+    padding: 17px 15px 15px 40px; 
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.port_serv{
+    padding: 17px 15px 15px;
+}
+.contact{
+    padding: 17px 60px 15px 15px; 
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;} */
+
+
+
+                /*_____Otra forma menu______ */
+.menu ul{
+    float: right;
+    width: 420px; 
+    height: 20px;
+    text-align: center;
+    background-image: url(imgs/nav_top_bg.jpg);
+    background-repeat: repeat-x;
+    border: 1px solid #ded5cf;
+    border-radius: 15px;
+    padding: 15px 0 15px 35px;
+}
+.menu ul li{
+    list-style-type: none;
+    float: left;
+    height: 35px;
+    background-image: url(imgs/separa_nav_top_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding-right: 20px;
+    margin-right: 20px;
+}
+.menu ul li.no{
+    background: none;
+}
+.menu ul li a {
+    font-size: 16px;
+    text-decoration: none;
+}
+.menu ul li a:hover{
+    color: orange;
+}
+/*------------------------------------------------*/
+
+
+/* _______ contenido Aside ________*/
+
+.titulo_aside{
+    width: 320px;/*360px*/
+    padding: 30px 20px 20px;
+}
+.noticia{
+    width: 330px;/*360px*/
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.noticia p {
+    margin-bottom: 60px;
+    font-size: 14px;
+    width: 270px;
+}
+
+.contacto{
+    width: 320px;/*360px*/
+    padding: 20px;
+}
+/*-----------------------------------*/
+
+
+
+/*______________ Cosas footer ______________*/
+.copy{
+    width: 480px;
+    height: 100px;
+    float: left;
+    line-height: 100px;
+}
+.cosas{
+    width: 480px;
+    height: 100px;
+    float: left;
+}
+.cosas p{
+    line-height: 100px;
+    float: right;
+}
+
+/*-------------------------------------*/
+
+
+
+.titulo_art{
+    width: 600px;
+    margin: 30px 20px;
+}
+.art1{
+    width: 600px;
+}
+.art2{
+    width: 600px;
+}
+.img_art{
+    padding-left: 30px;
+    width: 130px;/*200*/
+    float: left;
+    margin-bottom: 30px;
+}
+.img_art img{
+    border: 6px solid #C7BBA9;
+}
+
+.cont{
+    width: 350px;    
+    margin-bottom: 65px;
+    float: left;
+} 
+.cont > p{
+    font-size: 14px;
+}
+.texto{
+    width: 600px;
+    padding-left: 30px;
+
+}
+
+.txt_alto{
+    color: #79634E;    
+    font-weight: bold;
+    font-size: 15px;
+    width: 480px;
+}
+
+
+/*_________________ Contenido de contacto ________________________*/
+.contacto  ul li{
+    padding-left: 20px;
+    list-style-type: none;
+}
+.contacto  ul li,a{
+    font-size: 14px;
+}
+.contacto h3{
+    padding-bottom: 20px;
+}
+.li_contacto{
+    background-image: url(imgs/direccion_bg.jpg);
+    background-repeat: repeat-y;
+}
+
+/*______________ Contenido Segundo menu ________________*/
+
+                /*_____Mi forma_____*/
+/* .fondo_menu{
+    position: relative;
+}
+.img_menu{
+    position: relative;
+    bottom: 65px;
+    left: 85px;
+}
+.seg_menu ul li{
+    display: inline;    
+}
+.seg_menu ul li a{
+    font-size: 18px;
+    clear: both;
+    text-decoration: none;
+}
+
+.imagenes_menu{
+    position: relative;
+}
+.idea{
+    position: absolute;
+    top: 18px;
+    left: 95px;
+}
+.lapiz{
+    position: absolute;
+    top: 18px;
+    left: 225px;
+}
+.corazon{
+    position: absolute;
+    top: 18px;
+    right: 130px;
+} */
+
+
+                /*OTRA FORMA Segundo menu*/
+.menu_contenido{
+    width: 600px;
+    height: 75px;
+    background-image: url(imgs/bg_menu_contenido.jpg);
+    background-repeat: no-repeat;
+}
+ul.nav2{
+    width: 600px;
+    height: 35px;/*50px*/
+    padding-top: 15px;
+    padding-left: 50px;
+}
+.nav2 li{
+    float: left;
+    list-style-type: none;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+.ideas{
+    height: 50px;
+    width: 150px;
+    background-image: url(imgs/lampara.png);
+    background-repeat: no-repeat;
+    padding-top: 18px;
+}
+.execution{
+    height: 50px;
+    width: 160px;
+    background-image: url(imgs/lapiz.png);
+    background-repeat: no-repeat;
+    padding-top: 18px;
+}
+.pasion{
+    height: 40px;
+    width: 150px;
+    background-image: url(imgs/corazon.png);
+    background-repeat: no-repeat;
+    padding-top: 15px;
+}
+.nav2 li a{
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.ideas a{
+    padding-left: 80px;
+}
+.execution a{
+    padding-left: 50px;
+}
+.pasion a{
+    padding-left: 55px;
+}    
+/*----------------------------------*/
+
+.caja{
+    padding-top: 15px;
+}
